@@ -62,7 +62,7 @@ body
   font-family: "Special Elite", Georgia, Times, serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  background: url('../images/background.jpg');
+  background: url('background.jpg');
   -moz-background-size:100% 100%; /* Old Firefox */
   background-size:100% 100%;
   background-repeat:no-repeat;
