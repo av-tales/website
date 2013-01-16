@@ -54,6 +54,16 @@ a:focus
 Theme Styles
 *******************************************************************************/
 
+html
+{
+  background-color: #eecca9;
+  background-image: url("background.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 body
 {
   box-sizing: border-box;
@@ -62,10 +72,6 @@ body
   font-family: "Special Elite", Georgia, Times, serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  background: url('background.jpg');
-  -moz-background-size:100% 100%; /* Old Firefox */
-  background-size:100% 100%;
-  background-repeat:no-repeat;
 }
 
 h1, h2, h3, h4, h5, h6
